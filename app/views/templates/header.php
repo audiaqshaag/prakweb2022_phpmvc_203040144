@@ -1,8 +1,9 @@
 <html>
 
+
 <head>
     <title>Halaman <?= $data['judul']; ?></title>
-    <link rel="stylesheet" href="<?= BASEURL?>css/bootstrap.css">
+    <link href="<?= BASEURL ?>css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,6 +18,9 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= BASEURL ?>/mahasiswa">Mahasiswa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= BASEURL ?>/about">About</a>
